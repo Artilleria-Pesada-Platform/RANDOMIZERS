@@ -1,8 +1,22 @@
-from random import Random
-import random
-import pandas
+import pandas as pd
+import random 
 
-for i in range(200):
-    print(random.randrange(100, 9000, 100))
+DF_TRABAJADORES = pd.DataFrame(columns=["TRABAJADOR_ID","NOMBRE_COMPLETO","DIVISION"])
 
-s=pandas.Series
+DICCIONARIO_DIVISIONES = {"BAJIO":16, "METROPOLITANA NORTE":20, "METROPOLITANA SUR":18, "NORESTE": 17, "NOROESTE":17, "OCCIDENTE":18, "SUR":18, "SURESTE":12}
+LISTA_NOMBRES = ["ANTONIO","MANUEL","JOSE","FRANCISCO","DAVID","JUAN","JAVIER","JOSE ANTONIO","DANIEL","FRANCISCO JAVIER","JOSE LUIS","CARLOS","JESUS","ALEJANDRO","MIGUEL","JOSE MANUEL","RAFAEL","MIGUEL ANGEL","PABLO","PEDRO","MARIA CARMEN","MARIA","CARMEN","ANA MARIA","MARIA PILAR","LAURA","JOSEFA","ISABEL","MARIA DOLORES","MARIA TERESA","ANA","MARTA","CRISTINA","MARIA ANGELES","LUCIA","MARIA ISABEL","MARIA JOSE","FRANCISCA","ANTONIA","DOLORES"]
+LISTA_APELLIDOS = list(set(["MARTINEZ","FERNANDEZ","GARCIA","GARCIA","LOPEZ","RUIZ","SANCHEZ","RUIZ","GARCIA","MORENO","SANCHEZ","TORRES","LOPEZ","GOMEZ","RODRIGUEZ","PEREZ","JIMENEZ","LOPEZ","MORALES","DIAZ","GONZALEZ","LOPEZ","JIMENEZ","SANCHEZ","GONZALEZ","HERNANDEZ","PEREZ","ORTIZ","BORREGO","FERNANDEZ","FERNANDEZ","RODRIGUEZ","PEREZ","GARRIDO","ROJAS","MARTINEZ","MUNOZ","VERA","SOLER"]))
+
+def Randomizer_TRABAJADORES(DF_TRABAJADORES):
+    x=0
+    for division, num_trabajadores in DICCIONARIO_DIVISIONES.items():
+        
+        for y in range(num_trabajadores):
+            temp_division = division
+            temp_nombre_completo = random.choice(LISTA_NOMBRES)+" "+random.choice(LISTA_APELLIDOS)+" "+random.choice(LISTA_APELLIDOS)
+            temp_id = x+y
+            DF_TRABAJADORES.loc[len(DF_TRABAJADORES.index)] = [temp_id,temp_nombre_completo,temp_division]
+        x+=num_trabajadores
+
+Randomizer_TRABAJADORES(DF_TRABAJADORES)
+DF_TRABAJADORES.to_csv("TRABAJADORES/DF_TRABAJADORES.csv")
