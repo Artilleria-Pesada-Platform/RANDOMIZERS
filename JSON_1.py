@@ -20,9 +20,8 @@ for x in range(len(diccionario)):
     key_temp = list(diccionario.keys())[x]
     lista_ordenada = []
     for y in range(len(diccionario[key_temp])):
-        lista_ordenada.append(diccionario[key_temp][y][0])
-    dict_temp[key_temp] = lista_ordenada
+        lista_ordenada.append(int(diccionario[key_temp][y][0]))
+    dict_temp["name"] = key_temp
+    dict_temp["data"] = lista_ordenada
     lista.append(dict_temp)
 print(lista)
-
-print(diccionario)
