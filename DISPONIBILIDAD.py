@@ -9,10 +9,10 @@ LISTA_HOURS = ["00","03","06","09","12","15","18","21"]
 
 LISTA_SEMANA_DIAS = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
 
-for x in atm_info[["ATM"]]:
+for x in atm_info["ATM"]:
+    print (x)
     for y in LISTA_HOURS:
         for z in LISTA_SEMANA_DIAS:
-            print(x,y,z)
             DF_DISPONIBILIDAD.loc[len(DF_DISPONIBILIDAD.index)] = [x,y,z] 
 
-DF_DISPONIBILIDAD.to_csv("DF_DISPONIBILIDAD.csv")
+DF_DISPONIBILIDAD.to_csv("DF_DISPONIBILIDAD.csv", index=False)

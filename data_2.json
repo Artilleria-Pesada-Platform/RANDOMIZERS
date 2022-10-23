@@ -1,0 +1,161 @@
+[{
+    "name": "BAJIO",
+    "name_1": "GUANAJUATO",
+    "value": "4349"
+  }, {
+    "name": "BAJIO",
+    "name_1": "HIDALGO",
+    "value": "2895"
+  }, {
+    "name": "BAJIO",
+    "name_1": "SAN LUIS POTOSI",
+    "value": "1617"
+  }, {
+    "name": "BAJIO",
+    "name_1": "AGUASCALIENTES",
+    "value": "1239"
+  }, {
+    "name": "BAJIO",
+    "name_1": "ZACATECAS",
+    "value": "1045"
+  }, {
+    "name": "BAJIO",
+    "name_1": "QUERETARO",
+    "value": "2140"
+  }, {
+    "name": "BAJIO",
+    "name_1": "DISTRITO FEDERAL",
+    "value": "4"
+  }, {
+    "name": "BAJIO",
+    "name_1": "JALISCO",
+    "value": "56"
+  }, {
+    "name": "METROPOLITANA NORTE",
+    "name_1": "ESTADO DE MEXICO",
+    "value": "10121"
+  }, {
+    "name": "METROPOLITANA NORTE",
+    "name_1": "DISTRITO FEDERAL",
+    "value": "3846"
+  }, {
+    "name": "METROPOLITANA SUR",
+    "name_1": "DISTRITO FEDERAL",
+    "value": "9903"
+  }, {
+    "name": "METROPOLITANA SUR",
+    "name_1": "ESTADO DE MEXICO",
+    "value": "2351"
+  }, {
+    "name": "NORESTE",
+    "name_1": "COAHUILA",
+    "value": "3257"
+  }, {
+    "name": "NORESTE",
+    "name_1": "NUEVO LEON",
+    "value": "4773"
+  }, {
+    "name": "NORESTE",
+    "name_1": "TAMAULIPAS",
+    "value": "2897"
+  }, {
+    "name": "NORESTE",
+    "name_1": "DURANGO",
+    "value": "1123"
+  }, {
+    "name": "NORESTE",
+    "name_1": "VERACRUZ",
+    "value": "27"
+  }, {
+    "name": "NOROESTE",
+    "name_1": "SINALOA",
+    "value": "2417"
+  }, {
+    "name": "NOROESTE",
+    "name_1": "CHIHUAHUA",
+    "value": "3351"
+  }, {
+    "name": "NOROESTE",
+    "name_1": "SONORA",
+    "value": "2436"
+  }, {
+    "name": "NOROESTE",
+    "name_1": "BAJA CALIFORNIA",
+    "value": "2671"
+  }, {
+    "name": "NOROESTE",
+    "name_1": "BAJA CALIFORNIA SUR",
+    "value": "1275"
+  }, {
+    "name": "OCCIDENTE",
+    "name_1": "MICHOACAN",
+    "value": "3145"
+  }, {
+    "name": "OCCIDENTE",
+    "name_1": "JALISCO",
+    "value": "7772"
+  }, {
+    "name": "OCCIDENTE",
+    "name_1": "NAYARIT",
+    "value": "1018"
+  }, {
+    "name": "OCCIDENTE",
+    "name_1": "COLIMA",
+    "value": "711"
+  }, {
+    "name": "OCCIDENTE",
+    "name_1": "GUANAJUATO",
+    "value": "29"
+  }, {
+    "name": "OCCIDENTE",
+    "name_1": "Jalisco",
+    "value": "21"
+  }, {
+    "name": "OCCIDENTE",
+    "name_1": null,
+    "value": "5"
+  }, {
+    "name": "SUR",
+    "name_1": "PUEBLA",
+    "value": "4092"
+  }, {
+    "name": "SUR",
+    "name_1": "VERACRUZ",
+    "value": "5038"
+  }, {
+    "name": "SUR",
+    "name_1": "TLAXCALA",
+    "value": "753"
+  }, {
+    "name": "SUR",
+    "name_1": "GUERRERO",
+    "value": "1520"
+  }, {
+    "name": "SUR",
+    "name_1": "OAXACA",
+    "value": "1759"
+  }, {
+    "name": "SUR",
+    "name_1": "MORELOS",
+    "value": "1516"
+  }, {
+    "name": "SURESTE",
+    "name_1": "YUCATAN",
+    "value": "1687"
+  }, {
+    "name": "SURESTE",
+    "name_1": "TABASCO",
+    "value": "1633"
+  }, {
+    "name": "SURESTE",
+    "name_1": "QUINTANA ROO",
+    "value": "2034"
+  }, {
+    "name": "SURESTE",
+    "name_1": "CHIAPAS",
+    "value": "1922"
+  }, {
+    "name": "SURESTE",
+    "name_1": "CAMPECHE",
+    "value": "721"
+  }]
